@@ -8,6 +8,7 @@ import {
   LocationIcon,
   CakeIcon,
   Followage,
+  EditButton,
 } from './styles';
 
 const ProfilePage: React.FC = () => {
@@ -18,10 +19,9 @@ const ProfilePage: React.FC = () => {
         {/* src="http://github.com/joaobispo2077.png" */}
       </Banner>
       <ProfileData>
-        {/* <EditButton outlined>Editar perfil</EditButton> */}
-
         <h1>João Bispo</h1>
         <h2>@joaobispo2077</h2>
+        <EditButton outlined>Editar perfil</EditButton>
 
         <p>
           don&apos;t tread on me 🐍 - refrão de música animada. frase triste.
