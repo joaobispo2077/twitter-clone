@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import List from '../List';
 import {
   Container,
   SearchBar,
@@ -29,7 +30,23 @@ const Sidebar: React.FC = () => {
         </SearchBar>
       </SearchWrapper>
       <Body>
-        <p>{'Lorem ipsum dolor sit amet'.repeat(90)}</p>
+        <List
+          title="Talvez você conheça"
+          elements={[
+            <h1 key="1">Teste</h1>,
+            <h1 key="2">Teste</h1>,
+            <h1 key="3">Teste</h1>,
+          ]}
+        />
+
+        <List
+          title="Talvez você conheça"
+          elements={[
+            <h1 key="1">Teste</h1>,
+            <h1 key="2">Teste</h1>,
+            <h1 key="3">Teste</h1>,
+          ]}
+        />
       </Body>
     </Container>
   );

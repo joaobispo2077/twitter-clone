@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { Search } from '../../styles/Icons';
+import List from '../List';
 
 export const Container = styled.div`
   /* display: none; */
@@ -73,4 +74,14 @@ export const SearchInput = styled.input`
   }
 `;
 
-export const Body = styled.div``;
+export const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  padding: 57px 24px 200px;
+  margin-top: 3px;
+
+  > ul + ul {
+    margin-top: 15px;
+  }
+`;
