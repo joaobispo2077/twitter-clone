@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import FollowSuggestion from '../FollowSuggestion';
 import List from '../List';
+import News from '../News';
 import {
   Container,
   SearchBar,
@@ -56,11 +57,30 @@ const Sidebar: React.FC = () => {
         />
 
         <List
-          title="Talvez você conheça"
+          title="O que está acontecendo"
           elements={[
-            <h1 key="1">Teste</h1>,
-            <h1 key="2">Teste</h1>,
-            <h1 key="3">Teste</h1>,
+            <News
+              key="1"
+              range="Assunto do Momento em Brasil"
+              headline="O que é cringe?"
+            />,
+            <News
+              key="2"
+              range="Futebol"
+              headline="Presidente do Barça: Messi queria ficar, mas 'clube está acima até do melhor do mundo'"
+              image="https://pbs.twimg.com/semantic_core_img/1423343388405891074/CY7aSu7a?format=jpg&name=900x900"
+            />,
+            <News
+              key="3"
+              range="Anime"
+              headline="Capítulo comemorativo de ‘Bleach’ revela gancho para novo arco"
+              image="https://ovicio.com.br/wp-content/uploads/2021/08/20210806-ovicio-bleach-new-730x365.jpg"
+            />,
+            <News
+              key="4"
+              range="Assunto do Momento em São Paulo"
+              headline="Jovens relatam avistamento de ovnis"
+            />,
           ]}
         />
       </Body>
