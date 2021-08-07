@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import FollowSuggestion from '../FollowSuggestion';
 import List from '../List';
 import {
   Container,
@@ -33,9 +34,24 @@ const Sidebar: React.FC = () => {
         <List
           title="Talvez você conheça"
           elements={[
-            <h1 key="1">Teste</h1>,
-            <h1 key="2">Teste</h1>,
-            <h1 key="3">Teste</h1>,
+            <FollowSuggestion
+              key="1"
+              nickname="@BrenBaka"
+              username="𝗕𝗿𝗲𝗻𝗱𝗮 🌟"
+              avatar="https://pbs.twimg.com/profile_images/1422600412071346177/dVXERJaj_400x400.jpg"
+            />,
+            <FollowSuggestion
+              key="2"
+              nickname="@BrenBaka"
+              username="𝗕𝗿𝗲𝗻𝗱𝗮 🌟"
+              avatar="https://pbs.twimg.com/profile_images/1422600412071346177/dVXERJaj_400x400.jpg"
+            />,
+            <FollowSuggestion
+              key="3"
+              nickname="@BrenBaka"
+              username="𝗕𝗿𝗲𝗻𝗱𝗮 🌟"
+              avatar="https://pbs.twimg.com/profile_images/1422600412071346177/dVXERJaj_400x400.jpg"
+            />,
           ]}
         />
 

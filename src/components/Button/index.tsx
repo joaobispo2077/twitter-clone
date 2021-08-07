@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-interface ButtonProps {
+type ButtonProps = {
   outlined?: boolean;
-}
+};
 
 export default styled.button<ButtonProps>`
   background: ${({ outlined }) =>
