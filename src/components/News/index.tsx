@@ -11,8 +11,12 @@ type NewsProps = {
 const News: React.FC<NewsProps> = ({ range, headline, image }: NewsProps) => {
   return (
     <Container>
-      <span>{range}</span>
-      <strong>{headline}</strong>
+      <div>
+        <span>{range}</span>
+        <strong>{headline}</strong>
+      </div>
+
+      {image && <img src={image} alt={headline} />}
     </Container>
   );
 };

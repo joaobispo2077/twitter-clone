@@ -19,6 +19,8 @@ export default styled.button<ButtonProps>`
   font-size: 15px;
   cursor: pointer;
 
+  transition: background 300ms ease-in-out;
+
   &:hover {
     background: ${({ outlined }) =>
       outlined ? 'var(--twitter-dark-hover)' : 'var(--twitter-light-hover)'};

@@ -98,6 +98,8 @@ export const ImageContent = styled.img`
   border-radius: 14px;
   cursor: pointer;
 
+  transition: opacity 300ms ease-in-out;
+
   &:hover {
     opacity: 0.7;
   }
