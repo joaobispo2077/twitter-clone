@@ -6,7 +6,7 @@ import {
   Email,
   FavoriteBorder,
   Person,
-  ExitToApp,
+  DotsHorizontalRounded,
   Twitter,
 } from '../../styles/Icons';
 
@@ -56,7 +56,7 @@ export const MenuButtom = styled.button`
   align-items: center;
   flex-shrink: 0;
 
-  padding: 8.25px 0;
+  padding: 12px;
 
   & + button {
     margin-top: 16.5px;
@@ -83,6 +83,7 @@ export const MenuButtom = styled.button`
   }
 
   cursor: pointer;
+
   border-radius: 25px;
 
   &:hover {
@@ -128,15 +129,81 @@ const iconStyles = css`
 export const HomeIcon = styled(Home)`
   ${iconStyles}
 `;
+
 export const BellIcon = styled(Notifications)`
   ${iconStyles}
 `;
+
 export const EmailIcon = styled(Email)`
   ${iconStyles}
 `;
+
 export const FavoriteIcon = styled(FavoriteBorder)`
   ${iconStyles}
 `;
+
 export const ProfileIcon = styled(Person)`
   ${iconStyles}
+`;
+
+export const BotSide = styled.div`
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  padding: 12px;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+
+  &:hover {
+    background: var(--twitter-dark-hover);
+  }
+`;
+
+export const Avatar = styled.img`
+  height: 39px;
+  width: 39px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  background: var(--gray);
+`;
+
+export const ProfileData = styled.div`
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    margin-left: 10px;
+    font-size: 14px;
+
+    > span {
+      color: var(--gray);
+    }
+  }
+`;
+
+export const OptionsIcon = styled(DotsHorizontalRounded)`
+  display: none;
+
+  @media (min-width: 1200px) {
+    display: inline;
+
+    height: 25px;
+    width: 25px;
+    color: var(--white);
+
+    margin-left: 30px;
+    cursor: pointer;
+  }
 `;

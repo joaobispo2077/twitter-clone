@@ -1613,6 +1613,14 @@
     "@babel/runtime" "^7.14.8"
     "@styled-icons/styled-icon" "^10.6.3"
 
+"@styled-icons/boxicons-regular@^10.37.0":
+  version "10.37.0"
+  resolved "https://registry.yarnpkg.com/@styled-icons/boxicons-regular/-/boxicons-regular-10.37.0.tgz#b83da3e9d9d961dc55f28feac96b659cb4194dae"
+  integrity sha512-FAa8Nhn/ZABbrKP1lAVGJwphiuFssa2cx0Vv2AsY/RVwy6bL7FNjzq4H9iTMxSWyHAYPT3+sAODgZ9QjH8yIFA==
+  dependencies:
+    "@babel/runtime" "^7.14.8"
+    "@styled-icons/styled-icon" "^10.6.3"
+
 "@styled-icons/heroicons-outline@^10.36.0":
   version "10.36.0"
   resolved "https://registry.yarnpkg.com/@styled-icons/heroicons-outline/-/heroicons-outline-10.36.0.tgz#e98d6dbfb05dcd9a8e56a764dd5e2124651ddcc9"
