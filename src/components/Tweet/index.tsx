@@ -26,7 +26,10 @@ const Tweet: React.FC = () => {
         Você retweetou
       </Retweeted>
       <Body>
-        <Avatar />
+        <Avatar
+          src="https://pbs.twimg.com/profile_images/1411516021157027841/pMVel5Rh_400x400.jpg"
+          alt="Perfil da conta 90sVisuals"
+        />
         <Content>
           <Header>
             <strong>90s</strong>
@@ -35,9 +38,12 @@ const Tweet: React.FC = () => {
             <time>28 de mai</time>
           </Header>
 
-          <Description></Description>
+          <Description>Mood for this weekend:</Description>
 
-          <ImageContent />
+          <ImageContent
+            src="https://pbs.twimg.com/media/E8HqG-fXEAEPoe_?format=jpg&name=small"
+            alt="Jovem adulto desenhado em anime estudando no final de semana"
+          />
 
           <Icons>
             <Status>

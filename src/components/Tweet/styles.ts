@@ -37,7 +37,7 @@ export const Body = styled.div`
   position: relative;
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
   width: 49px;
   height: 49px;
   border-radius: 50%;
@@ -78,16 +78,30 @@ export const Header = styled.div`
   }
 `;
 
-export const Dot = styled.div`
+export const Dot = styled.span`
   background-color: var(--gray);
   height: 2px;
   width: 2px;
   margin: 0 10px;
 `;
 
-export const Description = styled.div``;
+export const Description = styled.p`
+  font-size: 14px;
+  margin-top: 4px;
+`;
 
-export const ImageContent = styled.div``;
+export const ImageContent = styled.img`
+  margin-top: 12px;
+  width: 100%;
+  height: min(285px, max(175px, 41vw));
+
+  border-radius: 14px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+`;
 
 export const Icons = styled.div``;
 
