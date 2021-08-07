@@ -56,7 +56,7 @@ const Tweet: React.FC = () => {
             </Status>
             <Status>
               <LikeIcon />
-              17
+              59
             </Status>
           </Icons>
         </Content>
