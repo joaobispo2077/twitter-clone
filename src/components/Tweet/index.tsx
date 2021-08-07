@@ -35,7 +35,7 @@ const Tweet: React.FC = () => {
             <strong>90s</strong>
             <span>@90sVisuals</span>
             <Dot />
-            <time>28 de mai</time>
+            <time>07 de Ago</time>
           </Header>
 
           <Description>Mood for this weekend:</Description>
