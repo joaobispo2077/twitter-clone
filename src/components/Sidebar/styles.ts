@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 import { Search } from '../../styles/Icons';
-import List from '../List';
 
 export const Container = styled.div`
-  /* display: none; */
+  display: none;
 
   @media (min-width: 1000px) {
     display: flex;

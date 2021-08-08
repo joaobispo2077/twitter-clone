@@ -16,8 +16,7 @@ const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
-        <Avatar />
-        {/* src="http://github.com/joaobispo2077.png" */}
+        <Avatar src="http://github.com/joaobispo2077.png" />
       </Banner>
       <ProfileData>
         <h1>João Bispo</h1>

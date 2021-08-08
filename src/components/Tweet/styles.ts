@@ -115,7 +115,7 @@ export const Icons = styled.div`
   width: 100%;
 
   @media (min-width: 330px) {
-    width: 63%;
+    width: 75%;
   }
 
   > div {
