@@ -145,6 +145,17 @@ export const Status = styled.div`
     }
   }
 
+  &:nth-child(1):hover {
+    &,
+    > svg path {
+      color: var(--twitter);
+    }
+
+    > svg {
+      background-color: var(--twitter-dark-hover);
+    }
+  }
+
   &:nth-child(2) {
     color: var(--retweet);
 
